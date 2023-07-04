@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import Doc from '../assets/doc.svg'
 import Scales from '../assets/scales.svg'
 import Hammer from '../assets/hammer.svg'
@@ -50,7 +50,7 @@ export default function Features() {
             <div className='grid md:grid-cols-2 xl:grid-cols-3 gap-4 w-full my-10'>
                 <Slide left direction='right' className='w-full'>
                     {features.map(feature => (
-                        <div className='cursor-pointer flex border border-gray-200 p-4 shadow rounded-sm items-center gap-4 w-full bg-gray-50' key={feature.id}>
+                        <div className='cursor-pointer flex border border-gray-200 hover:border-cyan-800 p-4 shadow rounded-sm items-center gap-4 w-full bg-gray-50' key={feature.id}>
                             <div className="rounded-full bg-cyan-800 w-[60px] h-[60px] flex items-center justify-center">
                                 <img className='' src={feature.img} alt="" />
                             </div>
