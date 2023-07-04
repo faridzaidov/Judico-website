@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-item::after {
+    transition: .3s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    backdrop-filter: blur(12px);
+}
+
+.nav-bg {
+    background-color: #f1f1f1c1;
+    z-index: 1;
+}
+
+.header-bg {
+    background-image: url(./assets/girl-sitting.jpg);
+}
